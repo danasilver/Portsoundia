@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F901E3051B5A0FE600E5518C /* candace_toni_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F901E3041B5A0FE600E5518C /* candace_toni_1@2x.jpg */; };
-		F901E3071B5A132C00E5518C /* candace_toni_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F901E3061B5A132C00E5518C /* candace_toni_1.jpg */; };
+		F901E3101B5ABA3800E5518C /* PortsoundiaImages in Resources */ = {isa = PBXBuildFile; fileRef = F901E30E1B5ABA3800E5518C /* PortsoundiaImages */; };
+		F901E3111B5ABA3800E5518C /* PortsoundiaSounds in Resources */ = {isa = PBXBuildFile; fileRef = F901E30F1B5ABA3800E5518C /* PortsoundiaSounds */; };
 		F9794A771B50D14F00D266C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9794A761B50D14F00D266C6 /* main.m */; };
 		F9794A7A1B50D14F00D266C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9794A791B50D14F00D266C6 /* AppDelegate.m */; };
 		F9794A801B50D14F00D266C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9794A7E1B50D14F00D266C6 /* Main.storyboard */; };
@@ -29,8 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F901E3041B5A0FE600E5518C /* candace_toni_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "candace_toni_1@2x.jpg"; path = "../../../../Desktop/PortsoundiaImages/candace_toni_1@2x.jpg"; sourceTree = "<group>"; };
-		F901E3061B5A132C00E5518C /* candace_toni_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = candace_toni_1.jpg; path = ../../../../Desktop/PortsoundiaImages/candace_toni_1.jpg; sourceTree = "<group>"; };
+		F901E30E1B5ABA3800E5518C /* PortsoundiaImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PortsoundiaImages; sourceTree = "<group>"; };
+		F901E30F1B5ABA3800E5518C /* PortsoundiaSounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PortsoundiaSounds; sourceTree = "<group>"; };
 		F9794A711B50D14F00D266C6 /* Portsoundia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portsoundia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9794A751B50D14F00D266C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9794A761B50D14F00D266C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -70,6 +70,8 @@
 				F9794A731B50D14F00D266C6 /* Portsoundia */,
 				F9794A8D1B50D14F00D266C6 /* PortsoundiaTests */,
 				F9794A721B50D14F00D266C6 /* Products */,
+				F901E30E1B5ABA3800E5518C /* PortsoundiaImages */,
+				F901E30F1B5ABA3800E5518C /* PortsoundiaSounds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +90,6 @@
 				F9794A781B50D14F00D266C6 /* AppDelegate.h */,
 				F9794A791B50D14F00D266C6 /* AppDelegate.m */,
 				F9794A7E1B50D14F00D266C6 /* Main.storyboard */,
-				F901E3061B5A132C00E5518C /* candace_toni_1.jpg */,
-				F901E3041B5A0FE600E5518C /* candace_toni_1@2x.jpg */,
 				F9794A811B50D14F00D266C6 /* Images.xcassets */,
 				F9794A831B50D14F00D266C6 /* LaunchScreen.xib */,
 				F9794A741B50D14F00D266C6 /* Supporting Files */,
@@ -207,9 +207,9 @@
 			files = (
 				F9794A801B50D14F00D266C6 /* Main.storyboard in Resources */,
 				F9794A851B50D14F00D266C6 /* LaunchScreen.xib in Resources */,
-				F901E3051B5A0FE600E5518C /* candace_toni_1@2x.jpg in Resources */,
+				F901E3111B5ABA3800E5518C /* PortsoundiaSounds in Resources */,
 				F9794A821B50D14F00D266C6 /* Images.xcassets in Resources */,
-				F901E3071B5A132C00E5518C /* candace_toni_1.jpg in Resources */,
+				F901E3101B5ABA3800E5518C /* PortsoundiaImages in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,4 @@
 
 @interface PortsoundiaCollectionViewController : UICollectionViewController
 
-@property NSMutableArray *portsoundiaItems;
-
 @end
