@@ -23,7 +23,9 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    items = [NSArray arrayWithObjects:@"every_time_you_point", nil];
+    items = [NSArray arrayWithObjects:  @"every_time_you_point",
+                                        @"everybody_involved",
+                                        @"can_you", nil];
     sounds = [[NSMutableDictionary alloc] init];
     
     for (NSString *item in items) {
